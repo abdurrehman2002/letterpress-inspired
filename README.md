@@ -6,10 +6,9 @@ This website is about letter press for News.This website is fully developed in r
 
 # Installation
 
-Install my-project with npm
-
-npm install project-name
-
-cd project-name
-
+```
+git clone https://github.com/abdurrehman2002/letterpress-inspired.git
+cd letterpress-inspired
+npm install
 npm start
+```
