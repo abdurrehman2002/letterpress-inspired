@@ -1,0 +1,1099 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.BodyWrapper {
+  overflow: hidden;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  /* left: 50%; */
+  /* margin-left: -3px; */
+  /* top: 0; */
+}
+
+
+.headerWrapper {
+  padding: 80px 100px 0px 100px;
+}
+
+.headerBg {
+  position: relative;
+
+}
+
+.headerBg::after {
+  content: "";
+  background-image: url('./assets/images/HeaderTopImg.png');
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 41%;
+  top: -125px;
+}
+
+.BannerBg {
+  position: relative;
+}
+
+.BannerBg::after {
+  content: "";
+  background-image: url('./assets/images/BannerLeftImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 459px;
+  height: 300px;
+  left: -137px;
+  top: -93px;
+}
+
+.BannerBg::before {
+  content: "";
+  background-image: url('./assets/images/BannerRightImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 365px;
+  height: 212px;
+  bottom: 80px;
+  right: -174px;
+}
+
+.HotTopicBg {
+  position: relative;
+}
+
+.HotTopicBg::after {
+  content: "";
+  background-image: url('./assets/images/HotTopicTopImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 351px;
+  height: 250px;
+  top: -104px;
+  right: -197px;
+}
+
+.HotTopicBg::before {
+  content: "";
+  background-image: url('./assets/images/HotTopicBottomImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 390px;
+  height: 250px;
+  bottom: -78px;
+  left: -112px;
+}
+
+.LatestVediosBg {
+  position: relative;
+  overflow: hidden;
+}
+
+.LatestVediosBg::after {
+  content: "";
+  background-image: url('./assets/images/LatestVedioTopImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 555px;
+  height: 240px;
+  top: 0px;
+  right: 65px;
+}
+
+.LatestVediosBg::before {
+  content: "";
+  background-image: url('./assets/images/LatestVedioBottomImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 330px;
+  bottom: -101px;
+  right: -212px;
+}
+
+
+.ReviewsBgImg {
+  position: relative;
+
+}
+
+.ReviewsBgImg::after {
+  content: "";
+  background-image: url('./assets/images/ReviewsBgImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1650px;
+  height: 1000px;
+  right: -229px;
+  top: -171px;
+}
+
+
+.CelebrityBg {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.CelebrityBg::after {
+  content: "";
+  background-image: url('./assets/images/CelebrityLeftImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+  top: -133px;
+  left: -117px;
+}
+
+.CelebrityBg::before{
+  content: "";
+  background-image: url('./assets/images/CelebrityRightImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 351px;
+  height: 260px;
+  top: 16px;
+  right: -145px;
+}
+
+
+
+
+.RegistrationBg {
+  position: relative;
+  overflow: hidden;
+}
+
+.RegistrationBg::after {
+  content: "";
+  background-image: url('./assets/images/RegistrationRightImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 340px;
+  top: 124px;
+  right: -85px;
+}
+
+.RegistrationBg::before {
+  content: "";
+  background-image: url('./assets/images/RegistrationLeftImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 430px;
+  height: 370px;
+  bottom: -94px;
+  left: -84px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.col-2 span {
+  font-weight: bold;
+  color: #ff402b;
+}
+
+
+.btn {
+  background-color: #ff402b;
+  color: white;
+  font-weight: 500px;
+  padding: 5px 25px;
+  border-radius: 0px;
+}
+
+.span {
+  color: #ff402b;
+}
+
+.BannerWrapper {
+  padding: 0px 100px 100px 100px;
+}
+
+.BannerTextImgWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BannerText img {
+  width: 115px;
+  height: 100px;
+}
+
+.BannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  padding-top: 350px;
+}
+
+.BannerText h2 {
+  padding-top: 20px;
+  color: #505054;
+  font-size: 54px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.BannerText p {
+  color: #ff402b;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.BannerCard::after {
+  content: url('./assets//images/CelebrityImg1.png');
+  position: relative;
+  left: 298px;
+  bottom: 187px;
+}
+
+.BannerCard {
+  background-color: #ff402b;
+  width: 350px;
+  height: 150px;
+  padding: 15px;
+  margin-bottom: 232px;
+  margin-right: 362px;
+}
+
+.BannerCard h1 {
+  color: white;
+  margin: 0px;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.BannerCard h2 {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 30px;
+  color: white;
+  font-size: 35px;
+  /* padding: 0px; */
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.BannerCard p {
+  margin: 0px;
+  padding-right: 30px;
+  padding-left: 10px;
+  font-size: 7px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* .BannerImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+
+.ExclusiveNewsBg {
+  background-color: #ff402b;
+  height: 400px;
+}
+
+.ExclusiveNewsWrapper {
+  padding: 70px 100px;
+}
+
+.ExclusiveNewsText h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ExclusiveNewsText p {
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ExclusiveNewsText .btn {
+  background-color: white;
+  color: #505054;
+  font-weight: 500px;
+  padding: 5px 25px;
+  border-radius: 0px;
+}
+
+.ExclusiveNewsImg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.HotTopicWrapper {
+  padding: 100px;
+}
+
+.HotTopicCard img {
+  width: 330px;
+}
+
+.HotTopicCard h1 {
+  color: #ff402b;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.HotTopicCard p {
+  color: #505054;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.HotTopicCardText {
+  padding-top: 20px;
+}
+
+.HotTopicCardText h3 {
+  color: #ff402b;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.HotTopicCardText {
+  display: flex;
+  align-items: flex-start;
+}
+
+.HotTopicCardText img {
+  margin-left: 20px;
+  width: 45px;
+}
+
+.LatestVediosWrapper {
+  padding-right: 100px;
+  padding-bottom: 80px;
+}
+
+.LatestVediosHeading {
+  padding: 100px 0px 40px 100px;
+}
+
+.LatestVediosHeading h1 {
+  color: #ff402b;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.LatestVediosHeading p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.LatestVedioImg1 img {
+  width: 100%;
+  height: 307px;
+}
+
+.LatestVedioImg2 img {
+  max-width: 100%;
+  max-height: 450px;
+}
+
+.LatestVedioText {
+  padding-top: 20px;
+}
+
+.LatestVedioText h2 {
+  color: #ff402b;
+  margin: 0px;
+  font-size: 35px;
+  padding: 0px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.LatestVedioText p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #505054;
+}
+
+.LatestVedioText .btn {
+  background-color: #ff402b;
+  color: white;
+  font-weight: bold;
+  padding: 5px 25px;
+  border-radius: 0px;
+  margin-top: 5px;
+}
+
+.LatestVedioArow {
+  display: flex;
+  justify-content: center;
+  padding-left: 230px;
+  padding-top: 20px;
+}
+
+.LatestVedioRightArow img {
+  padding-left: 50px;
+}
+
+.NewMusicBg {
+  background-color: #ff402b;
+  height: 880px;
+  overflow: hidden;
+}
+
+.NewMusicTextWrapper {
+  padding: 200px 100px;
+}
+
+.NewMusicTextBg {
+  overflow: hidden;
+  position: relative;
+}
+
+.NewMusicTextBg::after {
+  content: "";
+  background-image: url('./assets/images/NewMusicBgImg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1000px;
+  height: 1030px;
+  top: -77px;
+    left: -228px;
+}
+
+.NewMusicText img {
+  width: 100px;
+  height: 80px;
+}
+
+.NewMusicText h1 {
+  color: white;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.NewMusicText p {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.NewMusicCard {
+  background-color: white;
+  width: 330px;
+  height: 160px;
+  padding: 15px;
+  margin-top: 100px;
+}
+
+.NewMusicCard h1 {
+  color: #ff402b;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.NewMusicCard h2 {
+  color: #ff402b;
+  font-size: 45px;
+  padding: 0px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.NewMusicCard p {
+  font-size: 9px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #505054;
+}
+
+.NewMusicImg img {
+  width: 100%;
+  height: 880px;
+}
+
+
+.TodayNewsWrapper {
+  padding: 100px;
+}
+
+.TodayNewsImg img {
+  width: 100%;
+}
+
+.TodayNewsImg h1 {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 45px;
+  color: #ff402b;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.TodayNewsImg p {
+  font-size: 11px;
+  margin: 0px;
+  color: #505054;
+
+}
+
+.TodayNewsArticle {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.TodayNewsArticle h3 {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: bold;
+  color: #505054;
+}
+
+.FullArticleText {
+  display: flex;
+  align-items: center;
+}
+
+.FullArticleText h3 {
+  margin: 0px;
+  font-size: 15px;
+  color: #ff402b;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.FullArticleText img {
+  width: 35px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.TodayNewsText {
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.TodayNewsText h1 {
+  margin-top: 35px;
+  font-size: 45px;
+  color: #ff402b;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.TodayNewsText p {
+  font-size: 15px;
+  color: #505054;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.TodayNewsTextArticle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 35px;
+}
+
+.TodayNewsTextArticle h2 {
+  font-size: 23px;
+  margin: 0px;
+  font-weight: bold;
+  color: #505054;
+}
+
+hr {
+  margin: 0px;
+  color: #ff402b;
+  border: 0;
+  border-top: 3px solid;
+  opacity: 100;
+}
+
+
+/* .CelebrityWrapper{
+  padding: 100px;
+} */
+.CelebrityHeading {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.CelebrityHeading h1 {
+  margin-top: 35px;
+  margin: 0px;
+  font-size: 45px;
+  color: #ff402b;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.CelebrityHeading p {
+  margin: 0px;
+  font-size: 15px;
+  color: #505054;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Celebrity1 {
+  display: flex;
+  justify-content: end;
+  height: 708px;
+}
+
+.Celebrity1Card::after {
+  content: url('./assets//images/CelebrityImg1.png');
+  position: relative;
+  right: 175px;
+  bottom: 119px;
+}
+
+.Celebrity1Card {
+  position: absolute;
+  background-color: #ff402b;
+  width: 350px;
+  height: 150px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Celebrity1Card h1 {
+  color: white;
+  margin: 0px;
+  font-size: 25px;
+  padding-left: 75px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.Celebrity1Card h2 {
+  margin: 0px;
+  padding-left: 75px;
+  color: white;
+  font-size: 35px;
+  /* padding: 0px; */
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.Celebrity1Card p {
+  margin: 0px;
+  padding-left: 75px;
+  font-size: 7px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.Celebrity2 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: end;
+
+
+}
+
+.Celebrity2Card::after {
+  content: url('./assets//images/CelebrityImg2.png');
+  position: relative;
+  bottom: 512px;
+  left: 180px;
+}
+
+.Celebrity2Card {
+  background-color: #ff402b;
+  width: 350px;
+  height: 150px;
+  padding: 15px;
+  margin-bottom: 160px;
+  margin-right: 120px;
+}
+
+.Celebrity2Card h1 {
+  color: white;
+  margin: 0px;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.Celebrity2Card h2 {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 30px;
+  color: white;
+  font-size: 35px;
+  /* padding: 0px; */
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.Celebrity2Card p {
+  margin: 0px;
+  padding-right: 30px;
+  padding-left: 10px;
+  font-size: 7px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+
+.ReviewsBg {
+  background-color: #ff402b;
+  padding: 100px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.HeadingWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ReviewsHeading h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ReviewsRightArow img {
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.ReviewsLeftArow img {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.ReviewsHeading p {
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ReviewsDateStars {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.ReviewsDateStars h3 {
+  margin: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ReviewsDateStars img {
+  margin: 0px;
+  padding-left: 60px;
+}
+
+.ReviewsText hr {
+  margin: 0px;
+  color: white;
+  border: 0;
+  border-top: 3px solid;
+  opacity: 100;
+}
+
+.ReviewsText {
+  text-align: center;
+}
+
+.ReviewsText h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ReviewsText p {
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.RegistrationFormWrapper {
+  padding: 100px;
+}
+
+.RegistrationHeading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.RegistrationHeading h1 {
+  margin: 0px;
+  font-size: 45px;
+  color: #505054;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.RegistrationHeading h1 span {
+  color: #ff402b;
+}
+
+.RegistrationName {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.RegistrationFirstName input {
+  padding: 10px 50px 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #ff402b;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.RegistrationLastName input {
+  padding: 10px 50px 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #ff402b;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.RegistrationEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.RegistrationEmail input {
+  font-weight: bold;
+  padding: 10px 400px 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #ff402b;
+}
+
+.RegistrationDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.RegistrationDescription input {
+  font-weight: bold;
+  padding: 10px 400px 180px 25px;
+  border-radius: 10px;
+  border: 2px solid #ff402b;
+}
+
+.RegistrationButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.RegistrationButton .btn {
+  background-color: #ff402b;
+  color: white;
+  font-weight: bold;
+  padding: 5px 35px;
+  border-radius: 15px;
+}
+
+
+.FooterBg {
+  background-color: #2b2b2b;
+  height: 600px;
+  padding: 100px;
+  z-index: -999;
+}
+
+.FooterHeading h1 {
+  margin: 0px;
+  font-size: 60px;
+  color: #ff402b;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.FooterHeading h3 {
+  margin: 0px;
+  color: #888888;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.FooterHeadingWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterFollow ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterFollow ul i {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: black;
+}
+
+.FooterlinksWrapper {
+  display: flex;
+}
+
+.Footerlinks a {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Footerlinks2 a {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Footerlinks2 {
+  padding-left: 100px;
+}
+
+.Footerlinks3 a {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Footerlinks3 {
+  padding-left: 50px;
+}
+
+.Footerlinks4 a {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Footerlinks4 {
+  padding-left: 50px;
+}
